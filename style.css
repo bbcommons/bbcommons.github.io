@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono&display=swap');
+
+/* global variables */
+
+:root {
+  --accent-font: 'Azeret Mono', monospace;
+  --accent-color: rgb(127, 67, 229);
+}
+
+/* bootstrap overrides */
+
+.nav-link {
+  color: #000;
+}
+
+.nav-link.active {
+  background-color: var(--accent-color)!important;
+}
+
+.btn-primary {
+  background-color: rgb(127, 67, 229);
+}
+
+/* custom styles */
+
+a:hover {
+  color: var(--accent-color)!important;
+}
+
+.accent-font {
+  font-family: var(--accent-font);
+}
